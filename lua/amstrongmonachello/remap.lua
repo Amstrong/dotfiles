@@ -14,3 +14,6 @@ vim.keymap.set("n", "<esc>", ":noh<return><esc>", opts)
 -- Move elements
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
+
+vim.keymap.set("n", "<TAB>", ":BufferLineCycleNext<CR>", opts)
+vim.keymap.set("n", "<S-TAB>", ":BufferLineCyclePrev<CR>", opts)
