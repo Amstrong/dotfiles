@@ -12,11 +12,10 @@ vim.bo.expandtab = true
 vim.bo.softtabstop = 2
 
 vim.opt.nu = true
-vim.opt.relativenumber = true
+vim.opt.relativenumber = false
 
 -- Trikcy searches
 vim.opt.hlsearch = true
 vim.opt.incsearch = true
 
 vim.opt.termguicolors = true
-vim.opt.scrolloff = 8
