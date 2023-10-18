@@ -10,6 +10,10 @@ return require('packer').startup(function(use)
   use('nvim-treesitter/nvim-treesitter',{run = ":TSUpdate"} )
   use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
   use {
+  'nvim-lualine/lualine.nvim',
+  requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+  } 
+  use {
   'VonHeikemen/lsp-zero.nvim',
   branch = 'v1.x',
   requires = {
