@@ -9,9 +9,7 @@ return {
 			transparent_background = true,
 			colors = {
 				bg = "#1E1E2E",
-			},
+			}
 		})
-		vim.cmd("colorscheme catppuccin")
-		vim.opt.termguicolors = true
 	end,
 }
