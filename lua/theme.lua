@@ -16,7 +16,7 @@ local function activate_theme(theme_name)
     end
 end
 
-activate_theme("github") 
+activate_theme("catppuccin") 
 
 
 
