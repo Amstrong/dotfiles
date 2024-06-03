@@ -16,3 +16,4 @@ local opts = {}
 require("vim-options")
 require("lazy").setup("plugins")
 require("theme")
+require("keymaps")
