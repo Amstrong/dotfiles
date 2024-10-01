@@ -2,7 +2,7 @@ local keymap = vim.keymap;
 local opts = {noremap = true, silent = true};
 
 -- Split window
-keymap.set("n", "sh", ":split<Return>", opts)
+keymap.set("n", "ss", ":split<Return>", opts)
 keymap.set("n", "sv", ":vsplit<Return>", opts)
 
 -- Select all
@@ -20,3 +20,6 @@ keymap.set("n", "<C-w><right>", "<C-w>>")
 keymap.set("n", "<C-w><up>", "<C-w>+")
 keymap.set("n", "<C-w><down>", "<C-w>-")
 
+keymap.set("i", "kk", "<Esc>")
+keymap.set("n", '<leader>r', ":so %<CR>")
+keymap.set("n", "<leader>s", ":w<CR>")

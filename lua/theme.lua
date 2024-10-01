@@ -3,8 +3,11 @@ local themes = {
         vim.cmd("colorscheme catppuccin")
     end,
     github = function()
-        vim.cmd('colorscheme github_dark_default')
+        vim.cmd('colorscheme github_dark_colorblind')
     end,
+    kanagawa = function()
+        vim.cmd('colorscheme kanagawa-lotus')
+    end
 }
 
 local function activate_theme(theme_name)
@@ -16,9 +19,10 @@ local function activate_theme(theme_name)
     end
 end
 
-activate_theme("catppuccin")
+  activate_theme("catppuccin")
 
 
 
 -- Options:
 -- Catppuccin: latte, frappe,macchiato, mocha
+-- Kanagawa: kanagawa-lotus, kanagawa-dragon kanagawa-wave
