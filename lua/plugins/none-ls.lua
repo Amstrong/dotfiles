@@ -4,14 +4,14 @@ return {
     "nvimtools/none-ls-extras.nvim",
   },
   config = function()
-    local null_ls = require("null-ls")
-    null_ls.setup({
+    local none_ls = require("null-ls")
+    none_ls.setup({
       sources = {
-         require("none-ls.diagnostics.eslint_d"),
-        null_ls.builtins.formatting.stylua,
-        null_ls.builtins.diagnostics.rubocop,
-        null_ls.builtins.formatting.rubocop,
-        null_ls.builtins.formatting.prettier,
+         require("none-ls.diagnostics.eslint"),
+        none_ls.builtins.formatting.stylua,
+        none_ls.builtins.diagnostics.rubocop,
+        none_ls.builtins.formatting.rubocop,
+        none_ls.builtins.formatting.prettier,
       },
     })
     vim.keymap.set("n", "<leader>kf", vim.lsp.buf.format, {})
