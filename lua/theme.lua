@@ -2,8 +2,11 @@ local themes = {
     catppuccin = function()
         vim.cmd("colorscheme catppuccin")
     end,
-    github = function()
+    github_dark = function()
         vim.cmd('colorscheme github_dark_high_contrast')
+    end,
+    github_light = function()
+        vim.cmd('colorscheme github_light')
     end,
     kanagawa = function()
         vim.cmd('colorscheme kanagawa-dragon')
@@ -19,7 +22,7 @@ local function activate_theme(theme_name)
     end
 end
 
-  activate_theme("github")
+  activate_theme("github_dark")
 
 
 
