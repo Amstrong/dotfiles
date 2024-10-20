@@ -23,3 +23,6 @@ keymap.set("n", "<C-w><down>", "<C-w>-")
 keymap.set("i", "kk", "<Esc>")
 keymap.set("n", '<leader>r', ":so %<CR>")
 keymap.set("n", "<leader>s", ":w<CR>")
+
+keymap.set("n", "QQ", ":q!<enter>")
+keymap.set("n", "WW", ":w!<enter>")

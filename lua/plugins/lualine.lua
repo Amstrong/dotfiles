@@ -3,7 +3,15 @@ return {
   config = function()
     require("lualine").setup({
       options = {
-        theme = "dracula",
+        theme = 'auto',
+      },
+      secabsolutations = {
+        lualine_c = {
+          {
+            'filename',
+            path = 1  -- 0 = filename(default), 1 = relative, 2 = absolute 
+          }
+        },
       },
     })
   end,
