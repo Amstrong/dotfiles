@@ -1,0 +1,19 @@
+[window]
+opacity = 0.9
+padding.x = 10
+padding.y = 10
+decorations = "Buttonless"
+
+[font]
+
+normal.family = "DankMono Nerd Font"
+bold.family = "DankMono Nerd Font"
+italic.family = "DankMono Nerd Font"
+bold_italic.family = "DankMono Nerd Font"
+size = 15.0
+
+[general]
+import = [
+    "~/.config/dotfiles/alacritty/themes/themes/aura.toml"
+]
+
