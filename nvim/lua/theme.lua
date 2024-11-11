@@ -3,7 +3,8 @@ local themes = {
   github_dark = "github_dark_dimmed",
   github_light = "github_light",
   kanagawa = "kanagawa-dragon",
-  cyberdream = "cyberdream"
+  tokyonight = "tokyonight",
+  rosepine = "rose-pine",
 }
 
 local function activate_theme(theme_name)
@@ -17,4 +18,4 @@ local function activate_theme(theme_name)
   end
 end
 
-activate_theme("catppuccin")
+activate_theme("rose-pine")

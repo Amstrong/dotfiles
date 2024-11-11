@@ -6,3 +6,5 @@ vim.cmd("set shiftwidth=2")
 vim.cmd("set number")
 vim.opt.relativenumber = true
 vim.opt.clipboard="unnamedplus"
+vim.opt.splitright = true
+vim.opt.splitbelow = true
