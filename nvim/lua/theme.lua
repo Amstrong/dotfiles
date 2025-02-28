@@ -18,4 +18,4 @@ local function activate_theme(theme_name)
   end
 end
 
-activate_theme("rose-pine")
+activate_theme("tokyonight")

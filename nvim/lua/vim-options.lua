@@ -8,3 +8,8 @@ vim.opt.relativenumber = true
 vim.opt.clipboard="unnamedplus"
 vim.opt.splitright = true
 vim.opt.splitbelow = true
+vim.filetype.add({
+  extension = {
+    jbuilder = "ruby" 
+  },
+})

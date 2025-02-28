@@ -16,6 +16,6 @@ return {
       end
     end
 
-    vim.keymap.set("n", "<C-n>", toggle_neotree)
+    vim.keymap.set("n", "<leader>n", toggle_neotree)
   end,
 }

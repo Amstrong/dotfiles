@@ -4,9 +4,6 @@ return {
   priority = 1000,
   config = function()
     require("github-theme").setup({
-      options = {
-        transparent = false
-      }
     })
   end,
 }

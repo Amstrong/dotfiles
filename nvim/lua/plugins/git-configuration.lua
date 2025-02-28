@@ -15,7 +15,7 @@ return {
           map("n", "<leader>gp", ":Gitsigns preview_hunk<CR>", {})
           map("n", "<leader>gd", ":Gitsigns diffthis<CR>", {})
           map("n", "<leader>gb", ":lua require('gitsigns').blame_line{full=true}<CR>", {})
-          map("n", "<leader>gtb", ":Gitsigns toggle_current_line_blame<CR>", {})
+          map("n", "<leader>ga", ":Gitsigns toggle_current_line_blame<CR>", {})
 
           -- Navegación entre hunks
           map('n', ']c', function()
