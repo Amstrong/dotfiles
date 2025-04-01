@@ -5,6 +5,9 @@ local themes = {
   kanagawa = "kanagawa-dragon",
   tokyonight = "tokyonight",
   rosepine = "rose-pine",
+  onedark = "onedark",
+  onedark_dark ="onedark_dark",
+  monokai_pro = "monokai-pro-machine",
 }
 
 local function activate_theme(theme_name)
@@ -18,4 +21,4 @@ local function activate_theme(theme_name)
   end
 end
 
-activate_theme("tokyonight")
+activate_theme("monokai_pro")
